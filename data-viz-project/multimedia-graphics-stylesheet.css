@@ -1,5 +1,5 @@
 
-p {
+.title {
   font-family: Helvetica;
   font-size: 32px;
   color: #cc5200;
@@ -11,4 +11,8 @@ p {
   font-size: 16px;
   color: #803300;
   padding-bottom: 40px;
+}
+
+iframe {
+  max-width: 50%;
 }
