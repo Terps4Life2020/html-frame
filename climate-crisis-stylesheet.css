@@ -38,39 +38,10 @@ padding-left: 0px;
 padding-bottom: 20px;
 }
 
-img {
+.photo {
   display: block;
   align: center;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-}
-
-.column {
-  font-family: Helvetica;
-  font-size: 16px;
-  text-align: center;
-}
-
-.caption {
-  font-family: Helvetica;
-  font-size: 16px;
-  color: grey;
-  text-align: center;
-  padding-left: 0px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-.spacer {
-  padding: 20px;
-}
-
-.footer {
-  background-color: black;
-  padding: 30px;
-  text-align: center;
-  color: white;
-  font-family: Helvetica;
-  font-size: 20px;
 }
