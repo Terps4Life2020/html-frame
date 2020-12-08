@@ -5,8 +5,9 @@
   line-height: 55px;
   color: black;
   font-weight: bold;
-  text-align: center;
-  padding-top: 50px;
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .byline {
@@ -39,6 +40,14 @@ padding-bottom: 20px;
 }
 
 img {
+  display: block;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.photo {
   display: block;
   align: center;
   margin-left: auto;
@@ -85,4 +94,68 @@ img {
   padding-top: 25px;
   padding-left: 0;
   padding-bottom: 25px;
+}
+
+
+.fade {
+  background: black;
+}
+.fade {
+  width: 300px;
+  height: 300px;
+  background-image: -webkit-linear-gradient(top,
+      rgba(0,0,0,0.9) 0%,
+      rgba(0,0,0,0) 20%,
+      rgba(0,0,0,0) 80%,
+      rgba(0,0,0,0.9) 100%
+    ),
+    -webkit-linear-gradient(left,
+      rgba(0,0,0,0.9) 0%,
+      rgba(0,0,0,0) 20%,
+      rgba(0,0,0,0) 80%,
+      rgba(0,0,0,0.9) 100%
+    ),
+    url(https://github.com/Terps4Life2020/html-frame/tree/master/Images/Hallway.jpg);
+
+  background-image: -moz-linear-gradient(top,
+      rgba(0,0,0,0.9) 0%,
+      rgba(0,0,0,0) 20%,
+      rgba(0,0,0,0) 80%,
+      rgba(0,0,0,0.9) 100%
+    ),
+    -moz-linear-gradient(left,
+      rgba(0,0,0,0.9) 0%,
+      rgba(0,0,0,0) 20%,
+      rgba(0,0,0,0) 80%,
+      rgba(0,0,0,0.9) 100%
+    ),
+    url(https://github.com/Terps4Life2020/html-frame/tree/master/Images/Hallway.jpg);
+
+  background-image: -o-linear-gradient(top,
+      rgba(0,0,0,0.9) 0%,
+      rgba(0,0,0,0) 20%,
+      rgba(0,0,0,0) 80%,
+      rgba(0,0,0,0.9) 100%
+    ),
+    -o-linear-gradient(left,
+      rgba(0,0,0,0.9) 0%,
+      rgba(0,0,0,0) 20%,
+      rgba(0,0,0,0) 80%,
+      rgba(0,0,0,0.9) 100%
+    ),
+    url(https://github.com/Terps4Life2020/html-frame/tree/master/Images/Hallway.jpg);
+
+  background-image: linear-gradient(top,
+      rgba(0,0,0,0.9) 0%,
+      rgba(0,0,0,0) 20%,
+      rgba(0,0,0,0) 80%,
+      rgba(0,0,0,0.9) 100%
+    ),
+    linear-gradient(left,
+      rgba(0,0,0,0.9) 0%,
+      rgba(0,0,0,0) 20%,
+      rgba(0,0,0,0) 80%,
+      rgba(0,0,0,0.9) 100%
+    ),
+    url(https://github.com/Terps4Life2020/html-frame/tree/master/Images/Hallway.jpg);
 }
